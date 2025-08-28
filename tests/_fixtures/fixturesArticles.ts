@@ -35,7 +35,6 @@ export const test = base.extend<{
 
       await use(logger);
     },
-    { scope: 'worker' },
   ],
   articleWithoutTags: async ({ logger }, use) => {
     const articleWithoutTags = generateNewArticleData(logger);
